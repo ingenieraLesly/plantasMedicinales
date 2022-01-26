@@ -2,29 +2,76 @@ body{ /*no es una clase, no lleva punto es una etiqueta */
     background-color: rgb(243, 255, 220);
 }
 
-.titulo {
-    color:#d5c151d5;
+.titulo {/*Por clase*/
+    color:#068017;
     font-size: 50px;
     text-align: center;
 }
 
-.texto {
-    color:#b8860b;
+.subtitulo{
+    color:#068017;
+    font-size: 20px;
     text-align: center;
-
 }
 
+.texto {
+    color:#068017;
+    text-align: center;
+}
+
+#contenedor{
+    width: 75%;
+    padding: 30px;
+    height: auto;
+    display:block;
+    margin: auto;
+}
+
+table{
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+    left: 0%;
+}
 
 .image{
     width: 100px;
     height: 70px;
     display:block;
-    margin:auto;
+    margin: auto;
+    align-items: center;
 }
 
-#id{
+#id{/*por id*/
     width: 900px;
     height: 6300px;
-    display:block;
-    margin:auto;
+    display: block;
+    margin: auto;
+}
+
+td {
+    padding: 5px;
+    border-right: solid 1px #F5F5F5;
+}
+
+td:hover {
+    background-color: #068017;
+    transition: 0.4s;
+}
+
+.boton {
+    padding: 15px;
+    margin: 5px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #fff;
+    font-size: 19px;
+    border-radius: 5px;
+    background-color: #068017;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background-color: #0bb321;
+    transition: 0.4s;
 }
